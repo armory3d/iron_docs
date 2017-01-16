@@ -6,7 +6,7 @@ Iron is a library for building ultra-portable 3D tools using [Kha](https://githu
 
 While it is possible to operate Iron directly by hand, it is heavily data based. Instead, the library is designed to be integrated in custom tooling which will feed the data. Iron will handle full rendering and content pipelines, but will not provide visuals (no predefined shaders & render-path) or interaction.
 
-- [Get Iron](http://armory3d.org/download.html)
+- [Get Iron](https://github.com/armory3d/iron)
 - [Get Examples](https://github.com/armory3d/iron_examples/)
 - [Get Started](getting_started/setup.md)
 
