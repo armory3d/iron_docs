@@ -2,18 +2,21 @@
 
 ![](getting_started/img/iron.jpg)
 
-Iron is a library for building ultra-portable 3D tools using [Kha](https://github.com/Kode/Kha) and [Haxe](https://github.com/HaxeFoundation/haxe). Based on deployment requirements, JavaScript/C++ can be used. It is powering [Armory](http://armory3d.org), but is structured to run stand-alone.
+Iron is a data-based, asynchronous engine for building portable 3D tools using [Kha](https://github.com/Kode/Kha), [Haxe](https://github.com/HaxeFoundation/haxe) and [WebAssembly](http://webassembly.org/). It is powering [Armory](http://armory3d.org), but is structured to run stand-alone.
 
-While it is possible to operate Iron directly by hand, it is heavily data based. Instead, the library is designed to be integrated in custom tooling which will feed the data. Iron will handle full rendering and content pipelines, but will not provide visuals (no predefined shaders & render-path) or interaction.
+Iron handles render & content pipelines and lets you develop a custom visual engine on top of it.
 
 - [Get Iron](https://github.com/armory3d/iron)
-- [Get Examples](https://github.com/armory3d/iron_examples/)
-- [Get Started](getting_started/setup.md)
+- [Examples](https://github.com/armory3d/iron_examples/)
+- [Setup](./getting_started/setup.md)
 
 ---
 
-Tooling:
+Useful tooling:
 - [Haxebullet](https://github.com/armory3d/haxebullet) for 3D physics
 - [Haxerecast](https://github.com/armory3d/haxerecast) for 3D navigation
 - [HaxeUI](https://github.com/haxeui/haxeui-kha) to build user interfaces
+- [Zui](https://github.com/armory3d/zui) for debug interfaces
+- [iron_format](https://github.com/armory3d/iron_format) for 3D model import
 - [KodeStudio](https://github.com/Kode/KodeStudio/releases) as IDE
+- [Krom](https://github.com/Kode/Krom) for deployment
