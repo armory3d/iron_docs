@@ -1,9 +1,13 @@
 # Setup
 
 ## Quick start
-- git clone --recursive https://github.com/armory3d/iron_examples
+- Download the latest release of [KodeStudio](https://github.com/Kode/KodeStudio/releases)
+- `git clone --recursive https://github.com/Kode/Kha`
+- In KodeStudio go to *File > Preferences > Settings* and add `"kha.khaPath": "<PATH TO KHA>"` to your overrides
+  * Replace `PATH TO KHA` with the location of the Kha repo you cloned
+- `git clone --recursive https://github.com/armory3d/iron_examples`
 - Drop one of the example folders into [KodeStudio](https://github.com/Kode/KodeStudio/releases)
-- Run
+- Run (F5)
 
 ## Content pipeline
 
